@@ -42,14 +42,14 @@
     width: 70px;
     height: 70px;
     bottom: 12px;
-    background-image: url(../static/pause.svg);
+    background-image: url(../../static/pause.svg);
   }
   .play{
     position: absolute;
     width: 70px;
     height: 70px;
     bottom: 12px;
-    background-image: url(../static/play.svg);
+    background-image: url(../../static/play.svg);
   }
 </style>
 <template>
@@ -139,6 +139,9 @@ export default {
   mounted(){
     this.duration_time();
     this.current_time();     
+  },
+  computed:{
+    
   }
 }
 </script>
